@@ -1,10 +1,9 @@
-**Stock Data Parser **
+**Stock Data Parser** -- 1st Project
 
 A Python-based utility designed to extract, clean, and normalize financial trading data from unstructured log strings. 
 
 **Overview**
 Financial log data is often messy and inconsistent. This project demonstrates a custom-built **Parser** that identifies key data points (Ticker Symbols and Prices) within complex strings, regardless of their length or case sensitivity.
-
 
 
 **Key Features**
@@ -21,7 +20,6 @@ Financial log data is often messy and inconsistent. This project demonstrates a 
 4. **Data Normalization:** The extracted string is cast to a `float` and formatted to 2 decimal places using f-string rounding (`{price:.2f}`).
 
 
-
 **Example**
 **Raw Input:**
 `"ACTION:BUY-TICKER:AAPL-PRICE:150.2587-STATUS:SUCCESS"`
@@ -31,4 +29,3 @@ Financial log data is often messy and inconsistent. This project demonstrates a 
 Ticker found: AAPL
 Price of AAPL is 150.26
 
-PS this is my first project

@@ -1,44 +1,49 @@
-Financial Engineering & Data Portfolio 📊
-Welcome! This repository serves as a collection of my projects focused on Financial Technology, Log Analysis, and Automated Data Processing. My goal is to build tools that bridge the gap between raw financial data and actionable insights.
+# Financial Engineering and Quantitative Analysis Portfolio
 
-**Current Projects**
-**1. Stock Data Parser**
-A Python-based utility that extracts and normalizes ticker symbols and pricing data from unstructured trading logs.
+Welcome to my portfolio. This repository contains a collection of projects focused on Financial Technology, Risk Simulation, and Automated Data Processing. My objective is to develop computational tools that transform raw financial data into structured, actionable insights for valuation and risk management.
 
-Core Logic: Uses anchor-tagging and dynamic string slicing to handle variable-length data (e.g., 3-letter vs. 4-letter tickers).
+---
 
-Key Feature: Implements a search window (loc) that shifts dynamically to ensure efficient processing of complex log strings.
+## Current Projects
 
-Data Integrity: Normalizes mixed-case inputs and formats raw pricing into standardized currency floats.
+### 1. Stock Data Parser
+A Python-based utility designed to extract and normalize ticker symbols and pricing data from unstructured trading logs.
 
+* **Core Logic:** Utilizes anchor-tagging and dynamic string slicing to process variable-length data (e.g., 3-letter vs. 4-letter tickers) without hardcoded indices.
+* **Key Feature:** Implements a dynamic search window (`loc`) that shifts programmatically to ensure efficient parsing of complex log strings.
+* **Data Integrity:** Normalizes mixed-case inputs and standardizes raw pricing strings into validated floating-point numbers.
 
-**Technical Toolkit**
-Languages: Python (String Manipulation, Data Casting)
+---
 
-Tools: Git, VS Code, GitHub
+## Active Development: Financial Modeling and Risk
 
-Focus Areas: FinTech, Log Parsing, Data Cleaning
+I am currently developing the following modules focused on valuation and market uncertainty:
 
-
-**Active Development: Financial Modeling & Risk**
-I am currently building out the following modules focused on valuation and uncertainty:
-
-**1. Automated DCF (Discounted Cash Flow) Engine**
-The Goal: Calculate the intrinsic value of a company by projecting Free Cash Flows (FCF).
-
-The Math: Implementing the Time Value of Money (TVM) formula to discount future cash flows using a Weighted Average Cost of Capital (WACC).
-
-Feature: Will include a "Sensitivity Analysis" table to show how changes in growth rates affect the final share price.
-
-**2. Monte Carlo Risk Simulator**
-The Goal: Move beyond "best-case/worst-case" by simulating 10,000+ possible market outcomes.
-
-Focus: Using Python's random and numpy libraries to model price volatility and Value at Risk (VaR).
-
-Application: Risk management for stock portfolios during high-volatility events.
+### 1. Automated DCF (Discounted Cash Flow) Engine
+* **Objective:** Determine the intrinsic value of an asset by projecting and discounting future Free Cash Flows (FCF).
+* **Methodology:** Implementing Time Value of Money (TVM) principles to discount cash flows using a Weighted Average Cost of Capital (WACC).
+* **Planned Feature:** A sensitivity analysis matrix to evaluate share price volatility relative to terminal growth and discount rate fluctuations.
 
 
-**Contact & Connect**
-GitHub: branozk
 
-Goal: Open to collaborations on Python projects related to financial automation.
+### 2. Monte Carlo Risk Simulator
+* **Objective:** Model portfolio uncertainty by simulating thousands of potential market outcomes.
+* **Technical Focus:** Leveraging Python libraries (NumPy) to model price volatility and calculate Value at Risk (VaR).
+* **Application:** Quantitative risk management for equity portfolios during high-volatility market events.
+
+
+
+---
+
+## Technical Toolkit
+
+* **Languages:** Python (String Manipulation, Data Casting, Mathematical Modeling)
+* **Tools:** Git, VS Code, GitHub
+* **Focus Areas:** Financial Modeling, Log Analysis, Data Cleaning, Risk Simulation
+
+---
+
+## Contact and Connect
+
+* **GitHub:** [branozk](https://github.com/branozk)
+* **Collaboration:** I am open to discussing Python projects related to financial automation and quantitative research.
